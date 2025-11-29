@@ -1,11 +1,11 @@
-# 🩸 BloodBridge — Blood Donation & SOS Emergency Platform
+#  BloodBridge — Blood Donation & SOS Emergency Platform
 
 BloodBridge is a mobile application designed to **save lives by enabling fast blood donor matching and emergency SOS broadcasting** within a community.  
 Developed for **H4SC / VBYLD 2026**, the project aims to solve real-world delays in accessing blood during emergencies.
 
 ---
 
-## 🚨 Problem Statement
+##  Problem Statement
 In many regions, patients and hospitals face **critical delays in securing compatible blood** due to:
 
 - Lack of real-time donor availability information
@@ -16,33 +16,33 @@ This leads to **preventable deaths**, especially in rural and remote areas.
 
 ---
 
-## 💡 Solution
+##  Solution
 BloodBridge provides an **instant, location-aware blood donor network** that connects verified donors and receivers through:
 
-- 🆘 Instant SOS broadcast notifications
-- 🙋 Real-time donor registration
-- 🩺 Blood type filtering & availability
-- 📱 Cross-platform support (Android, iOS & Web)
+- Instant SOS broadcast notifications
+- Real-time donor registration
+- Blood type filtering & availability
+- Cross-platform support (Android, iOS & Web)
 
 The system improves emergency response time, reduces panic, and ensures **faster access to lifesaving blood**.
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
 | Feature | Description |
 |--------|-------------|
-| 🆘 SOS Emergency Broadcast | Send immediate alert to all registered donors in selected blood group |
-| 🔔 Push Notifications | Real-time alerts using custom Vercel notification server |
-| 🙋 Donor Registration | Register with profile, blood group & contact |
-| 🩺 Donor Search | Filter by blood type (A+, O-, AB+, etc.) |
-| 📍 Location-based Reach | Notify nearest donors |
-| 🧑 User Profile | Manage donor info & availability |
-| 📱 Clean UI | Minimal modern UI built with Flutter |
+|  SOS Emergency Broadcast | Send immediate alert to all registered donors in selected blood group |
+|  Push Notifications | Real-time alerts using custom Vercel notification server |
+|  Donor Registration | Register with profile, blood group & contact |
+|  Donor Search | Filter by blood type (A+, O-, AB+, etc.) |
+|  Location-based Reach | Notify nearest donors |
+|  User Profile | Manage donor info & availability |
+|  Clean UI | Minimal modern UI built with Flutter |
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-----------|----------|
@@ -56,7 +56,7 @@ The system improves emergency response time, reduces panic, and ensures **faster
 ---
 
 
-## 🧱 System Architecture
+##  System Architecture
 
 ```
 
@@ -74,7 +74,7 @@ User Devices (Push Alerts)
 ```
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
 ```bash
 git clone https://github.com/Rindika-9/bloodbridge.git
@@ -105,13 +105,13 @@ MIT License
 
 ---
 
-## 📞 Contact
+##  Contact
 Developed by **TheTriad – Mizoram**  
 📧 rindikarenthlei2004@gmail.com  
 
 ---
 
-## 🌟 Vision
+##  Vision
 **State pilot → National Scale**  
 Connecting donors and saving lives across India.
 
