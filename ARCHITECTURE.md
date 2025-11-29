@@ -59,12 +59,15 @@ donors
 
 ---
 
-##  Scalability Plan
+##  Scalability & Future Scope
 
-- Add hospital onboarding system
-- Enable automated location-based matching with geofencing
-- Introduce AI-based prioritization
-- Expand nationwide via cluster deployment
+- Add hospital onboarding & blood bank integration system
+- Enable automated location-based donor matching with geofencing
+- Introduce AI-based prioritization for selecting most suitable donors
+- Expand nationwide via cluster-based deployment
+- Support multilingual user interface (English, Hindi, Mizo, etc.)
+- Local community volunteer network & NGO collaboration
+- Emergency medical transport integration (ambulance partners)
 
 ---
 
