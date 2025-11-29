@@ -55,5 +55,65 @@ The system improves emergency response time, reduces panic, and ensures **faster
 
 ---
 
-## 📐 System Architecture
+
+## 🧱 System Architecture
+
+```
+
+Mobile App (Flutter)
+↓
+Firebase Auth → Firestore → Donor database
+↓
+SOS Trigger (button)
+↓
+Vercel Notification Server
+↓
+Firebase Cloud Messaging
+↓
+User Devices (Push Alerts)
+```
+---
+
+## 📥 Installation & Setup
+
+```bash
+git clone https://github.com/Rindika-9/bloodbridge.git
+flutter pub get
+flutter run
+
+
+### Firebase Setup
+Add Firebase configuration files:
+- android/app/google-services.json
+- ios/Runner/GoogleService-Info.plist
+
+---
+
+## 🧪 Firestore Structure Example
+
+donors
+└── userId
+├── name: string
+├── bloodGroup: string
+├── phone: string
+├── location: string
+└── available: boolean
+---
+
+## 📄 License
+MIT License
+
+---
+
+## 📞 Contact
+Developed by **TheTriad – Mizoram**  
+📧 rindikarenthlei2004@gmail.com  
+
+---
+
+## 🌟 Vision
+**State pilot → National Scale**  
+Connecting donors and saving lives across India.
+
+
 
