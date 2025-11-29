@@ -1,10 +1,10 @@
-# 🏗 BloodBridge System Architecture
+#  BloodBridge System Architecture
 
 BloodBridge is designed using a modular and scalable architecture that enables real-time emergency alerts and efficient blood donor matching.
 
 ---
 
-## 🔧 High Level Architecture
+##  High Level Architecture
 
 Mobile App (Flutter)
 ↓
@@ -21,7 +21,7 @@ Firebase Cloud Messaging (HTTP v1)
 User Devices (Push Notifications)
 ---
 
-## 📦 Core Components
+##  Core Components
 
 | Component | Description |
 |-----------|-------------|
@@ -34,7 +34,7 @@ User Devices (Push Notifications)
 
 ---
 
-## 🌐 Data Flow
+##  Data Flow
 
 | Step | Action |
 |------|--------|
@@ -47,7 +47,7 @@ User Devices (Push Notifications)
 
 ---
 
-## 🧱 Database Structure (Firestore)
+##  Database Structure (Firestore)
 
 donors
 └── userId
@@ -59,7 +59,7 @@ donors
 
 ---
 
-## 📈 Scalability Plan
+##  Scalability Plan
 
 - Add hospital onboarding system
 - Enable automated location-based matching with geofencing
@@ -68,7 +68,7 @@ donors
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 This architecture enables fast emergency response, modular development, and scalability for national-level expansion.
 
 
