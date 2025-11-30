@@ -18,7 +18,7 @@ import 'screens/about_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/edit_profile_screen.dart';
 
-/// 🔔 Background FCM handler
+/// Background FCM handler
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
@@ -43,10 +43,10 @@ Future<void> main() async {
   } else {
     await Firebase.initializeApp();
 
-    // 🔔 Enable background notifications
+    // Enable background notifications
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
-    // 🔔 Request notification permissions (Android/iOS)
+    // Request notification permissions (Android/iOS)
     await FirebaseMessaging.instance.requestPermission(
       alert: true,
       badge: true,
@@ -67,13 +67,13 @@ Future<void> main() async {
       }
     });
 
-    // 🔔 Listen for messages when app is foreground
+    //  Listen for messages when app is foreground
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
       debugPrint("📩 Foreground message: ${message.notification?.title}");
       // You can show a local notification or dialog here
     });
 
-    // 🔔 Handle notification tap when app is in background
+    //  Handle notification tap when app is in background
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
       debugPrint("📱 App opened from notification: ${message.data}");
       // Navigate to chat or relevant screen
